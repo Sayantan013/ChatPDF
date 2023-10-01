@@ -1,6 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ChatPDF
 
-## Getting Started
+
+### Getting Started
 
 First, run the development server:
 
@@ -16,21 +17,25 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Purpose
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Reading a 50 page PDF before an exam is hard. ChatPDF replaces the tediousness of skimming/cramming/glancing through a PDF and automates with the new buzz around the block - AI. This ease the burden on students, researches, and other professionals significantly.
 
-## Learn More
+## Features I want to include/use
 
-To learn more about Next.js, take a look at the following resources:
+- [x] A nice UI for PDF upload and chat using shadcn/ui and Tailwind.
+- [x] Authentication/Authorisation using Clerk.
+- [x] Neon/Serverless and the new DrizzleORM for database needs.
+- [x] File upload and storage using react-dropzone and AWS S3 buckets.
+- [] A Vector database preferrably PineConeDB to store complex data.
+- [] React query for all our data-fetching needs.
+- [] Vercel's AI SDK to converse with our PDF.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+> Optional:
+- [] Stripe Integration
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
